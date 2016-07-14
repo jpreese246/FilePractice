@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"E:\Practice\FilePractice\src\FilePractice\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"E:\Practice\FilePractice\src\FilePractice\bin\Debug\netcoreapp1.0\FilePractice.dll"
+"C:\Users\aj\GitHub\src\FilePractice\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\aj\GitHub\src\FilePractice\bin\Debug\netcoreapp1.0\FilePractice.dll"
 -r:"C:\Users\aj\.nuget\packages\Microsoft.ApplicationInsights\2.1.0\lib\dotnet5.4\Microsoft.ApplicationInsights.dll"
 -r:"C:\Users\aj\.nuget\packages\Microsoft.ApplicationInsights.AspNetCore\1.0.0\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll"
 -r:"C:\Users\aj\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
@@ -192,7 +192,7 @@
 -r:"C:\Users\aj\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\aj\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\aj\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"E:\Practice\FilePractice\src\FilePractice\obj\Debug\netcoreapp1.0\FilePracticedotnet-compile.deps.json",FilePractice.deps.json
-"E:\Practice\FilePractice\src\FilePractice\Program.cs"
-"E:\Practice\FilePractice\src\FilePractice\Startup.cs"
-"E:\Practice\FilePractice\src\FilePractice\Controllers\HomeController.cs"
+-resource:"C:\Users\aj\GitHub\src\FilePractice\obj\Debug\netcoreapp1.0\FilePracticedotnet-compile.deps.json",FilePractice.deps.json
+"C:\Users\aj\GitHub\src\FilePractice\Program.cs"
+"C:\Users\aj\GitHub\src\FilePractice\Startup.cs"
+"C:\Users\aj\GitHub\src\FilePractice\Controllers\HomeController.cs"

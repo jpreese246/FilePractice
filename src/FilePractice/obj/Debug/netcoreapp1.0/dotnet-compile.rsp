@@ -1,5 +1,5 @@
---temp-output:E:\Practice\FilePractice\src\FilePractice\obj\Debug\netcoreapp1.0\
---out:E:\Practice\FilePractice\src\FilePractice\bin\Debug\netcoreapp1.0\FilePractice.dll
+--temp-output:C:\Users\aj\GitHub\src\FilePractice\obj\Debug\netcoreapp1.0\
+--out:C:\Users\aj\GitHub\src\FilePractice\bin\Debug\netcoreapp1.0\FilePractice.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -196,7 +196,7 @@
 --reference:C:\Users\aj\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\aj\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\aj\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"E:\Practice\FilePractice\src\FilePractice\obj\Debug\netcoreapp1.0\FilePracticedotnet-compile.deps.json",FilePractice.deps.json
-E:\Practice\FilePractice\src\FilePractice\Program.cs
-E:\Practice\FilePractice\src\FilePractice\Startup.cs
-E:\Practice\FilePractice\src\FilePractice\Controllers\HomeController.cs
+--resource:"C:\Users\aj\GitHub\src\FilePractice\obj\Debug\netcoreapp1.0\FilePracticedotnet-compile.deps.json",FilePractice.deps.json
+C:\Users\aj\GitHub\src\FilePractice\Program.cs
+C:\Users\aj\GitHub\src\FilePractice\Startup.cs
+C:\Users\aj\GitHub\src\FilePractice\Controllers\HomeController.cs
