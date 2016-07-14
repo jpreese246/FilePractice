@@ -1,0 +1,1 @@
+cmd /K "C:\Program Files\Autodesk\AutoCAD LT 2014\acadlt.exe" C:\Users\isundin\zp155522222Desktop\Scripts\ZP-EW21-1.dwg /b Schematics.scrcmd /K "C:\Program Files\Autodesk\AutoCAD LT 2014\acadlt.exe" C:\Users\isundin\kkkkDesktop\Scripts\ZP-EW21-1.dwg /b Schematics.scr

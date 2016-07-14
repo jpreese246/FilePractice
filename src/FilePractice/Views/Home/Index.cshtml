@@ -1,0 +1,476 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!-- Notice that this will now pass the "TestID2" value as your "example" parameter for your SaveData action -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <section class="block">
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="active item">
+                    <div class="container-fluid">
+                        <div class="row spacer">
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-1">
+
+                            </div>
+
+                            <div class="col-md-5">
+                                <form action="Home/AddToBat" method="POST">
+                                    <input name="addToBat" type="text">
+                                    <input type="submit" value="Serial Number">
+                                </form>
+
+                                <img src="~/images/Lightning.jpg" class="img-rounded" alt="ELECTRICAL" width="304" height="268">
+                            </div>
+                            <div class="col-md-5">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Digital Inputs", "AddToScript", new { addToScript = "E:\\Practice\\FilePractice\\src\\FilePractice\\Options\\DIGITAL INPUT.txt" }, new { @class = "btn btn-primary btn-large btn-block" })
+                                    </div>
+
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Save", "SaveData", new { fileName = "script.txt" }, new { @class = "btn btn-primary btn-large btn-block" })
+                                    </div>
+
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row spacer">
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption">
+                            <p>ELECTRICAL</p>
+                        </div>
+                    </div>
+                </div>
+                    <!-- <div class="text-center col-md-2 ">
+            <h2>@Html.ActionLink("Digital Inputs", "AddToScript", new { addToScript = "di" }, new { @class = "btn btn-primary btn-large" })</h2>
+        </div>
+        <div class="text-center col-md-2">
+            <h2>@Html.ActionLink("Save Me", "SaveData", new { fileName = "script.txt" }, new { @class = "btn btn-primary btn-large" })</h2>
+        </div>
+        <div class="col-md-2">
+            <h2>@Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })</h2>
+        </div>
+
+        <div class="col-md-2">
+            <h2>@Html.ActionLink("Digital Inputs", "AddToScript", new { addToScript = "di" }, new { @class = "btn btn-primary btn-large" })</h2>
+        </div>
+        <div class="col-md-2">
+            <h2>@Html.ActionLink("Digital Inputs", "AddToScript", new { addToScript = "di" }, new { @class = "btn btn-primary btn-large" })</h2>
+        </div>
+        <div class="col-md-2">
+            <h2>@Html.ActionLink("Digital Inputs", "AddToScript", new { addToScript = "di" }, new { @class = "btn btn-primary btn-large" })</h2>
+        </div> -->
+                    <!--<img src="~/images/lightning.jpg" alt="Slide1" /> -->
+                    
+                <div class="item">
+
+
+                    <div class="container-fluid">
+                        <div class="row spacer">
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-1">
+
+                            </div>
+
+                            <div class="col-md-5">
+                                <img src="~/images/refrigeration.jpg" class="img-rounded" alt="REFRIGERATON" width="304" height="268">
+                            </div>
+                            <div class="col-md-5">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Digital Inputs", "AddToScript", new { addToScript = "di" }, new { @class = "btn btn-primary btn-large btn-block" })
+                                    </div>
+
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Save", "SaveData", new { fileName = "script.txt" }, new { @class = "btn btn-primary btn-large btn-block" })
+                                    </div>
+
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row spacer">
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                        </div>
+                    </div>
+                    div class="carousel-item">
+                    <div class="carousel-caption">
+                        <p>REFRIGERATION</p>
+                    </div>
+                </div>
+
+                <div class="item">
+
+
+                    <div class="container-fluid">
+                        <div class="row spacer">
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-1">
+
+                            </div>
+
+                            <div class="col-md-5">
+                                <img src="~/images/cabinetry.jpg" class="img-rounded" alt="Cabinetry" width="304" height="268">
+                            </div>
+                            <div class="col-md-5">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Digital Inputs", "AddToScript", new { addToScript = "di" }, new { @class = "btn btn-primary btn-large btn-block" })
+                                    </div>
+
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Save", "SaveData", new { fileName = "script.txt" }, new { @class = "btn btn-primary btn-large btn-block" })
+                                    </div>
+
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="col-xs-12" style="height:5px;"></div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row spacer">
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                            <div class="span4">...</div>
+                        </div>
+                    </div>
+                    div class="carousel-item">
+                    <div class="carousel-caption">
+                        <p>CABINETRY</p>
+                    </div>
+                </div>
+
+
+
+                </div>
+                
+            </div>
+
+        
+    </section>
+</div>
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <img class="chevron chevron-left" src="http://alexoliveira.me/Hawaii/images/chevron-left.png" />
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <img class="chevron chevron-right" src="http://alexoliveira.me/Hawaii/images/chevron-right.png" />
+</a>
+
+<!--<div class="row">
+    <div class="col-md-3">
+        <h2>
+            @Html.ActionLink("Save Me", "SaveData", new { fileName = "script.txt" }, new { @class = "btn btn-primary btn-large" })
+            @Html.ActionLink("Digital Inputs", "AddToScript", new { addToScript = "di" }, new { @class = "btn btn-primary btn-large" })
+            @Html.ActionLink("Return File", "downloadTextFile", "Home", null, new { @class = "btn btn-primary btn-large" })
+        </h2>
+
+    </div>
+    <div class="col-md-3">
+        <h2>How to</h2>
+        <ul>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=699562">Add an appsetting in config and access it in app.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699318">Add client packages using Bower.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Overview</h2>
+        <ul>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Run & Deploy</h2>
+        <ul>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
+        </ul>
+    </div>
+</div>
+    -->
