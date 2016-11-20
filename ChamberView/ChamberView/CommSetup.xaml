@@ -26,7 +26,8 @@
         </Grid.RowDefinitions>
 
         <!-- People list -->
-
+        <TextBox Grid.Column="1" Grid.Row="0" Text="Hello, world!" />
+        
         <Label Grid.Column="1" Style="{StaticResource headerTextStyle}" >
             WRITE SP 50 TO CONTROLLER
         </Label>

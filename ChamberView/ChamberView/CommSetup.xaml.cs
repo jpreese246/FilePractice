@@ -44,6 +44,7 @@ namespace ChamberView
                 ushort startAddress = 300;
                 ushort value = 660;
                 master.WriteSingleRegister(slaveId, startAddress, value);
+                ushort[] holding_register = master.ReadHoldingRegisters(slaveId, startAddress, 1);
             }
 
         }
@@ -58,6 +59,11 @@ namespace ChamberView
             //string whif = comboBox1.Text;
             string whif = "COM6";
             ModbusSerialRtuMasterWriteRegisters(whif);
+        }
+
+        private void MyComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
